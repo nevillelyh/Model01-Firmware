@@ -60,6 +60,9 @@
 // Support for shared palettes for other plugins, like Colormap below
 #include "Kaleidoscope-LED-Palette-Theme.h"
 
+// https://github.com/tremby/Kaleidoscope-LEDEffect-DigitalRain
+#include "Kaleidoscope-LEDEffect-DigitalRain.h"
+
 // Support for an LED mode that lets one configure per-layer color maps
 #include "Kaleidoscope-Colormap.h"
 
@@ -506,6 +509,8 @@ KALEIDOSCOPE_INIT_PLUGINS(
   // The LED Palette Theme plugin provides a shared palette for other plugins,
   // like Colormap below
   LEDPaletteTheme,
+
+  LEDDigitalRainEffect,
 
   // The Colormap effect makes it possible to set up per-layer colormaps
   ColormapEffect,
