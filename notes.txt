@@ -1,0 +1,2 @@
+sudo snap install arduino
+ARDUINO_PATH=/snap/arduino/current make flash
